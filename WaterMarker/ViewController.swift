@@ -13,8 +13,8 @@ class ViewController: NSViewController {
     var watermarkURL:URL?
     
     var previewImageIndex = 0
-    var selectedScaling: Double = 0.6
-    var selectedAlpha: Double = 0.3
+    var selectedScaling: Double = 0.2
+    var selectedAlpha: Double = 1.0
     
     var replaceFiles = false
     var watermarkImage: NSImage?
